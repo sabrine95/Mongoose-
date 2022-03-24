@@ -7,7 +7,7 @@ const person = mongoose.Schema({
     },age:{
         type:Number
     },favoriteFoods:{
-        type:String
+        type:[String],
         
     }
 
